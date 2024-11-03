@@ -1,6 +1,7 @@
 {
   "name": "todolist-v1",
   "version": "1.0.0",
+  "type": "commonjs",
   "description": "simple to do list",
   "main": "app.js",
   "scripts": {
@@ -12,6 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.3",
+    "dotenv": "^16.4.5",
     "ejs": "^2.7.4",
     "express": "^4.21.1",
     "mongoose": "^8.8.0"
